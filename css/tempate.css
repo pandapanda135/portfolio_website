@@ -1,0 +1,163 @@
+.body{
+    background-color: #231F20;
+}
+
+a{
+    text-decoration: none;
+}
+
+.NavigationBar{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: sticky;
+    align-items: center;
+    background-color:blueviolet;
+    block-size: 3.5rem;
+    justify-content: center;
+    clip-path: polygon(0% 0%, 4% 100%, 100% 100%, 96% 0%);
+}
+
+/* text inside capsules in navbar */
+.NavigationBar > a {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:blueviolet;
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0.15rem;
+    height: 2.5rem;
+    margin-left: 0.4rem;
+    border-radius: 0.25rem;
+    transition: 0.1s;
+}
+
+.NavigationBar > a:hover {
+    transform: skew(1deg, 1deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.HighlightText{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+}
+
+.DescriptiveText{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+}
+
+.Seperator{
+    color: blueviolet;
+}
+
+.CapsuleHolder{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #40383a;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Capsules{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Capsule{
+    display: grid;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-shadow: 0 0 10px black;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+    width: 8rem;
+    background-color: aliceblue;
+    transition: 0.1s;
+}
+
+.Capsule:hover{
+    transform: skew(1deg, 1deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#PythonCapsule{
+    background: linear-gradient(90deg, #269dff 0%,#26ccff 30%,#ffda56 70%,#ffc800 100%);
+}
+
+#GodotCapsule{
+    background: radial-gradient(circle,#478cbf 0%,#55a7e6 40%,#0091ff 100%);
+}
+
+#CSharpCapsule{
+    background: linear-gradient(135deg, #937ce6 0%,#5028d5 100%);
+}
+
+#ExperienceCapsuleHolder{
+    width: 26rem;
+    height: 6rem;
+}
+
+#PreviousWorkCapsuleHolder{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    height: auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.PreviousWorkCapsule{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 65rem;
+    background-color: #262122;
+}
+
+.TitleText{
+    padding-left: 1rem;
+    margin-bottom: 0px;
+    text-align:start;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
+
+.DescriptionText{
+    padding-left: 1rem;
+    text-align:start;
+    color: white;
+}
+
+.SocialDiv{
+    text-align: center;
+}
+
+.SocialDiv > a{
+    text-decoration: none;
+}
+
+.SocialImage{
+    color: white;
+    block-size: 5%;
+}
