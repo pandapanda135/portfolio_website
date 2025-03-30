@@ -139,6 +139,19 @@ a{
     text-shadow: 0 0 10px yellow;
 }
 
+#GodotCapsuleText{
+    color: black;
+    text-shadow: 0 0;
+    background: linear-gradient(90deg,#478cbf 0%,#55a7e6 20%,#0091ff 35%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#GodotCapsuleText:hover{
+    text-shadow: 0 0 10px #4aa4e9;
+}
+
 .DescriptionText{
     margin-top: 1rem;
     padding-left: 1rem;
