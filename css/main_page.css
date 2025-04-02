@@ -42,6 +42,8 @@ a{
     font-style: normal;
     text-align: center;
     color: aliceblue;
+    font-size: 250%;
+    margin: 2rem 0px;
 }
 
 .DescriptiveText{
@@ -69,14 +71,14 @@ a{
 }
 
 .Capsule{
-    display: grid;
+    display: flex;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-shadow: 0 0 10px black;
     border-radius: 1rem;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     height: 5rem;
     width: 8rem;
     background-color: aliceblue;
@@ -89,7 +91,7 @@ a{
 }
 
 #PythonCapsule{
-    background: linear-gradient(90deg, #269dff 0%,#26ccff 30%,#ffda56 70%,#ffc800 100%);
+    background: linear-gradient(90deg, #269dff 0%,#26ccff 30%,#b8eeff 45%,#ffefb6 55%,#ffda56 70%,#ffc800 100%);
 }
 
 #GodotCapsule{
@@ -105,7 +107,7 @@ a{
     height: 6rem;
 }
 
-#PreviousWorkCapsuleHolder{
+#LongCapsuleHolder{
     flex-direction: column;
     margin-top: 2rem;
     height: auto;
@@ -113,7 +115,7 @@ a{
     gap: 0rem;
 }
 
-.PreviousWorkCapsule{
+.LongCapsule{
     display: flex;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -121,7 +123,7 @@ a{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     border-radius: 1rem;
-    height: 10rem;
+    height: auto;
     width: 98%;
     background-color: #262122;
 }
