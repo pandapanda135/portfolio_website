@@ -60,6 +60,43 @@ a{
     color: #40383a;
 }
 
+.CapsuleHolderParent{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.CapsuleHolderChild{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+@media (max-width: 1200px){
+    .CapsuleHolderChild {
+        margin-right: 0px;
+        align-self: center;
+    }
+    .CapsuleHolderParent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .CapsuleHolder{
+        flex-direction: column;
+    }
+    .Capsule{
+        width: 16rem !important;
+    }
+    #ExperienceCapsuleHolder{
+        flex-direction: column;
+        width: 17rem !important;
+        height: 17rem !important;
+        margin: auto;
+    }
+}
+
+
 .CapsuleHolder{
     display: flex;
     margin: auto;
@@ -83,6 +120,7 @@ a{
     width: 8rem;
     background-color: aliceblue;
     transition: 0.1s;
+    text-align: center;
 }
 
 .Capsule:hover{
@@ -100,6 +138,10 @@ a{
 
 #CSharpCapsule{
     background: linear-gradient(135deg, #937ce6 0%,#5028d5 100%);
+}
+
+#LuaCapsule{
+    background: linear-gradient(135deg, #00007d 0%,#2831d5 100%);
 }
 
 #ExperienceCapsuleHolder{
