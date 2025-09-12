@@ -174,13 +174,18 @@ a{
     padding-left: 1rem;
     margin-bottom: 0px;
     text-align:start;
-    color: yellow;
-    text-shadow: 0 0 5px yellow;
+    color: white;
+    text-shadow: 0 0 5px white;
     transition: 0.5s;
 }
 
 .TitleText:hover{
-    text-shadow: 0 0 10px yellow;
+    text-shadow: 0 0 10px white;
+}
+
+.LinkText{
+  color: #ffd;
+  text-decoration: #ffd wavy underline;
 }
 
 #GodotCapsuleText{
@@ -194,6 +199,19 @@ a{
 
 #GodotCapsuleText:hover{
     text-shadow: 0 0 10px #4aa4e9;
+}
+
+#CSharpCapsuleText{
+    color: black;
+    text-shadow: 0 0;
+    background: linear-gradient(90deg, #937ce6 0%,#5840aa 25%,#552ed6 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#CSharpCapsuleText:hover{
+    text-shadow: 0 0 10px #573aba;
 }
 
 .DescriptionText{
